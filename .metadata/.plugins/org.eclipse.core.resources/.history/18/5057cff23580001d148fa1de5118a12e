@@ -1,0 +1,27 @@
+/*
+ * day10_EX_8퍼즐A_user_STL_ver1_2.cpp
+ *
+ *  Created on: 2022. 12. 20.
+ *      Author: bw
+ */
+
+#include <unordered_map>
+struct Data {
+  int face, zeroPos, dir
+};
+
+int (*puzzle)[3];
+
+int puz;
+
+void test(const int puzzle[3][3]) {
+  ::puzzle = puzzle;
+
+  puz = 0;
+  for (int y = 0; y < 3; y++) {
+    for (int x = 0; x < 3; x++) {
+      puz = puz * 10 + puzzle[y][x];
+    }
+  }
+
+}

@@ -1,0 +1,13 @@
+/*
+ * day10_EX_8퍼즐B_user.cpp
+ *
+ *  Created on: 2022. 12. 16.
+ *      Author: bw
+ */
+
+/// ***** user.cpp *****
+extern void move(int);
+void test(const int srcPuz[][3], const int destPuz[][3]) {
+  // If you modify the puzzle const data by bypassing it, you will be disqualified
+
+}

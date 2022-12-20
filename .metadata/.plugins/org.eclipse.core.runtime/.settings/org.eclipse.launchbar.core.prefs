@@ -1,0 +1,17 @@
+LaunchTargetManager/configs/expert_day10=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=macosx
+activeLaunchTarget=null\:---
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:myknou,org.eclipse.launchbar.core.descriptorType.default\:expert,org.eclipse.launchbar.core.descriptorType.default\:expert_day02,org.eclipse.launchbar.core.descriptorType.default\:expert_day03,org.eclipse.launchbar.core.descriptorType.default\:expert_day04,org.eclipse.launchbar.core.descriptorType.default\:expert_day05,org.eclipse.launchbar.core.descriptorType.default\:expert_day10
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:expert/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:expert_day02/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:expert_day02/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:expert_day03/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:expert_day03/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:expert_day10/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:lec01_namespace/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:lec01_namespace/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:myknou/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:myknou/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

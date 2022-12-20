@@ -1,0 +1,14 @@
+/*
+ * day10_EX_8퍼즐A_user_hash_ver1_1.cpp
+ *
+ *  Created on: 2022. 12. 20.
+ *      Author: bw
+ */
+
+/// ***** user.cpp *****
+extern void move(int mode);
+
+void test(const int puzzle[3][3]) {
+  // If you modify the puzzle const data by bypassing it, you will be disqualified.
+
+}

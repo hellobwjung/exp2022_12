@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;expert_day04/day04_계수정렬_countingSort_user.cpp&apos; to &apos;day04_계수정렬_countingSort_user1.cpp&apos;" description="Rename resource &apos;day04_계수정렬_countingSort_user.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="day04_계수정렬_countingSort_user.cpp" name="day04_계수정렬_countingSort_user1.cpp" stamp="1670474302640" updateReferences="true"/>
+</session>

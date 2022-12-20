@@ -1,0 +1,7 @@
+14:47:23 **** Incremental Build of configuration Build (GNU) for project knou_cpp_2022 ****
+make all 
+make: *** No rule to make target `all'.  Stop.
+"make all" terminated with exit code 2. Build might be incomplete.
+
+14:47:23 Build Failed. 1 errors, 0 warnings. (took 476ms)
+

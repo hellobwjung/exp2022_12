@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;expert_day03/day03_데이터압축1.cpp&apos; to &apos;day03_데이터압축1_main.cpp&apos;" description="Rename resource &apos;day03_데이터압축1.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="day03_데이터압축1.cpp" name="day03_데이터압축1_main.cpp" stamp="1670386649928" updateReferences="true"/>
+</session>

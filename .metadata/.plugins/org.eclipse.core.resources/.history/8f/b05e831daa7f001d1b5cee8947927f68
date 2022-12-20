@@ -1,0 +1,18 @@
+/*
+ * test.cpp
+ *
+ *  Created on: 2022. 12. 19.
+ *      Author: bw
+ */
+
+#include <cstdio>
+#include <unordred_map>
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+  cout << "done done " << end;
+  return 0;
+}

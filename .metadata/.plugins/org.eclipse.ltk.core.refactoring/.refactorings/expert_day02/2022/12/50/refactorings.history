@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;expert_day02/day02_진법변환.cpp&apos; to &apos;day02_진법변환1.cpp&apos;" description="Rename resource &apos;day02_진법변환.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="day02_진법변환.cpp" name="day02_진법변환1.cpp" stamp="1670285430507" updateReferences="true"/>
+</session>

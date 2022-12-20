@@ -1,4 +1,8 @@
+Debug
+Debug/*
+
 # Prerequisites
+
 *.d
 
 # Compiled Object files

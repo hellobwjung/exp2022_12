@@ -1,0 +1,8 @@
+/*
+ * day10_EX_8퍼즐A_user_STL_ver1_2.cpp
+ *
+ *  Created on: 2022. 12. 20.
+ *      Author: bw
+ */
+
+void test(const int puzzle[3][3]);

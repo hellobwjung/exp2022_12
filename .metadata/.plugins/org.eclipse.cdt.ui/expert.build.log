@@ -1,0 +1,45 @@
+18:11:30 **** Build of configuration Debug for project expert ****
+make all 
+Building target: expert
+Invoking: MacOS X C++ Linker
+g++  -o "expert"  ./day01_minecraft1_2.o ./day01_minecraft2_1.o   
+duplicate symbol 'input1()' in:
+    ./day01_minecraft1_2.o
+    ./day01_minecraft2_1.o
+duplicate symbol 'sol1()' in:
+    ./day01_minecraft1_2.o
+    ./day01_minecraft2_1.o
+duplicate symbol '_min_cost' in:
+    ./day01_minecraft1_2.o
+    ./day01_minecraft2_1.o
+duplicate symbol '_height' in:
+    ./day01_minecraft1_2.o
+    ./day01_minecraft2_1.o
+duplicate symbol '_arr' in:
+    ./day01_minecraft1_2.o
+    ./day01_minecraft2_1.o
+duplicate symbol '_main' in:
+    ./day01_minecraft1_2.o
+    ./day01_minecraft2_1.o
+duplicate symbol 'get_cost(int)' in:
+    ./day01_minecraft1_2.o
+    ./day01_minecraft2_1.o
+duplicate symbol '_N' in:
+    ./day01_minecraft1_2.o
+    ./day01_minecraft2_1.o
+duplicate symbol '_M' in:
+    ./day01_minecraft1_2.o
+    ./day01_minecraft2_1.o
+duplicate symbol '_NM' in:
+    ./day01_minecraft1_2.o
+    ./day01_minecraft2_1.o
+duplicate symbol '_B' in:
+    ./day01_minecraft1_2.o
+    ./day01_minecraft2_1.o
+ld: 11 duplicate symbols for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [expert] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+18:11:31 Build Failed. 2 errors, 0 warnings. (took 693ms)
+
