@@ -1,6 +1,20 @@
-00:10:26 **** Incremental Build of configuration Debug for project expert_day03 ****
+01:11:53 **** Incremental Build of configuration Debug for project expert_day03 ****
 make all 
-make: Nothing to be done for `all'.
+Building file: ../day03_데이터압축2_main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"day03_데이터압축2_main.d" -MT"day03_데이터압축2_main.o" -o "day03_데이터압축2_main.o" "../day03_데이터압축2_main.cpp"
+Finished building: ../day03_데이터압축2_main.cpp
+ 
+Building file: ../day03_데이터압축2_user.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"day03_데이터압축2_user.d" -MT"day03_데이터압축2_user.o" -o "day03_데이터압축2_user.o" "../day03_데이터압축2_user.cpp"
+Finished building: ../day03_데이터압축2_user.cpp
+ 
+Building target: expert_day03
+Invoking: MacOS X C++ Linker
+g++  -o "expert_day03"  ./day03_데이터압축2_main.o ./day03_데이터압축2_user.o   
+Finished building target: expert_day03
+ 
 
-00:10:27 Build Finished. 0 errors, 0 warnings. (took 304ms)
+01:11:54 Build Finished. 0 errors, 0 warnings. (took 642ms)
 

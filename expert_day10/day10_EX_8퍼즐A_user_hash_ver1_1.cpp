@@ -46,6 +46,6 @@ inline int getFace(int p[3][3]) {
 void test(const int puzzle[3][3]) {
 // If you modify the puzzle const data by bypassing it, you will be disqualified.
 
-  int face = getFace(puzzle);
+//  int face = getFace(puzzle);
 
 }

@@ -1,29 +1,6 @@
-00:10:27 **** Incremental Build of configuration Debug for project expert_day10 ****
+01:11:58 **** Incremental Build of configuration Debug for project expert_day10 ****
 make all 
-Building file: ../day10_EX_8퍼즐A_user_hash_ver1_1.cpp
-Invoking: GCC C++ Compiler
-g++ -std=c++1y -D_LIBCPP_STD_VER=14 -D__cplusplus=201402L -O3 -g3 -Wall -c -fmessage-length=0 -Wdeprecated-registe -MMD -MP -MF"day10_EX_8퍼즐A_user_hash_ver1_1.d" -MT"day10_EX_8퍼즐A_user_hash_ver1_1.o" -o "day10_EX_8퍼즐A_user_hash_ver1_1.o" "../day10_EX_8퍼즐A_user_hash_ver1_1.cpp"
-warning: unknown warning option '-Wdeprecated-registe'; did you mean '-Wdeprecated-register'? [-Wunknown-warning-option]
-../day10_EX_8퍼즐A_user_hash_ver1_1.cpp:37:8: warning: 'register' storage class specifier is deprecated and incompatible with C++17 [-Wdeprecated-register]
-  for (register int yy = 0; yy < 3; yy++) {
-       ^~~~~~~~~
-../day10_EX_8퍼즐A_user_hash_ver1_1.cpp:38:10: warning: 'register' storage class specifier is deprecated and incompatible with C++17 [-Wdeprecated-register]
-    for (register int xx = 0; xx < 3; xx++) {
-         ^~~~~~~~~
-../day10_EX_8퍼즐A_user_hash_ver1_1.cpp:23:11: warning: unused variable 'adjIdx' [-Wunused-const-variable]
-const int adjIdx[9][5] = { { 1, 3 }, { 0, 2, 4 }, { 1, 5 }, //
-          ^
-../day10_EX_8퍼즐A_user_hash_ver1_1.cpp:27:11: warning: unused variable 'dir' [-Wunused-const-variable]
-const int dir[9][5] = { { R, D }, { L, R, D }, { L, D }, //
-          ^
-5 warnings generated.
-Finished building: ../day10_EX_8퍼즐A_user_hash_ver1_1.cpp
- 
-Building target: expert_day10
-Invoking: MacOS X C++ Linker
-g++  -o "expert_day10"  ./day10_EX_8퍼즐A_main.o ./day10_EX_8퍼즐A_user_hash_ver1_1.o   
-Finished building target: expert_day10
- 
+make: Nothing to be done for `all'.
 
-00:10:28 Build Finished. 0 errors, 4 warnings. (took 738ms)
+01:11:59 Build Finished. 0 errors, 0 warnings. (took 331ms)
 

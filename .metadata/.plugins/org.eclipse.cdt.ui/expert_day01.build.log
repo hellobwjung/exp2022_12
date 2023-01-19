@@ -1,6 +1,4 @@
-00:10:26 **** Incremental Build of configuration Debug for project expert_day01 ****
-make all 
-make: Nothing to be done for `all'.
 
-00:10:26 Build Finished. 0 errors, 0 warnings. (took 326ms)
+**** Build of configuration Debug for project expert_day01 ****
 
+Nothing to build for project expert_day01

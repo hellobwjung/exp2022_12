@@ -49,7 +49,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="day10_EX_8퍼즐A_user_STL_ver1_2.cpp|day10_EX_8퍼즐A_user_STL_ver1.cpp|day10_EX_8퍼즐A_user_STL_ver1_1.cpp|test.cpp|day10_EX_8퍼즐G_user.cpp|day10_EX_8퍼즐G_main.cpp|day10_EX_8퍼즐F_user.cpp|day10_EX_8퍼즐F_main.cpp|day10_EX_8퍼즐B_user_ver2.cpp|day10_EX_8퍼즐B_user_ver1.cpp|day10_EX_8퍼즐B_main.cpp|day10_EX_8퍼즐A_user.cpp|day10_EX_8퍼즐A_user_hash_ver2.cpp|day10.cpp|day10_EX_8퍼즐A_user_ver1_adhoc.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="hash.cpp|day10_EX_8퍼즐A_user_STL_ver1_2.cpp|day10_EX_8퍼즐A_user_STL_ver1.cpp|day10_EX_8퍼즐A_user_STL_ver1_1.cpp|test.cpp|day10_EX_8퍼즐G_user.cpp|day10_EX_8퍼즐G_main.cpp|day10_EX_8퍼즐F_user.cpp|day10_EX_8퍼즐F_main.cpp|day10_EX_8퍼즐B_user_ver2.cpp|day10_EX_8퍼즐B_user_ver1.cpp|day10_EX_8퍼즐B_main.cpp|day10_EX_8퍼즐A_user.cpp|day10_EX_8퍼즐A_user_hash_ver2.cpp|day10.cpp|day10_EX_8퍼즐A_user_ver1_adhoc.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -97,7 +97,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="day10_EX_8퍼즐A_user_STL_ver1_2.cpp|day10_EX_8퍼즐A_user_STL_ver1.cpp|day10_EX_8퍼즐A_user_STL_ver1_1.cpp|test.cpp|day10_EX_8퍼즐G_user.cpp|day10_EX_8퍼즐G_main.cpp|day10_EX_8퍼즐F_user.cpp|day10_EX_8퍼즐F_main.cpp|day10_EX_8퍼즐B_user_ver2.cpp|day10_EX_8퍼즐B_user_ver1.cpp|day10_EX_8퍼즐B_main.cpp|day10_EX_8퍼즐A_user.cpp|day10_EX_8퍼즐A_user_hash_ver2.cpp|day10.cpp|day10_EX_8퍼즐A_user_ver1_adhoc.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="hash.cpp|day10_EX_8퍼즐A_user_STL_ver1_2.cpp|day10_EX_8퍼즐A_user_STL_ver1.cpp|day10_EX_8퍼즐A_user_STL_ver1_1.cpp|test.cpp|day10_EX_8퍼즐G_user.cpp|day10_EX_8퍼즐G_main.cpp|day10_EX_8퍼즐F_user.cpp|day10_EX_8퍼즐F_main.cpp|day10_EX_8퍼즐B_user_ver2.cpp|day10_EX_8퍼즐B_user_ver1.cpp|day10_EX_8퍼즐B_main.cpp|day10_EX_8퍼즐A_user.cpp|day10_EX_8퍼즐A_user_hash_ver2.cpp|day10.cpp|day10_EX_8퍼즐A_user_ver1_adhoc.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>

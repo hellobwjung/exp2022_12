@@ -45,6 +45,7 @@ void mergeSort(int *arr, int s, int e) {
     else
       trr[k++] = arr[j++];
   }
+
   while (i <= m)
     trr[k++] = arr[i++];
   while (j <= e)

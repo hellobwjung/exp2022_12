@@ -1,4 +1,15 @@
+01:35:29 **** Incremental Build of configuration Debug for project expert_day02 ****
+make all 
+Building file: ../day02_비밀편지_2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"day02_비밀편지_2.d" -MT"day02_비밀편지_2.o" -o "day02_비밀편지_2.o" "../day02_비밀편지_2.cpp"
+Finished building: ../day02_비밀편지_2.cpp
+ 
+Building target: expert_day02
+Invoking: MacOS X C++ Linker
+g++  -o "expert_day02"  ./day02_비밀편지_2.o   
+Finished building target: expert_day02
+ 
 
-**** Build of configuration Debug for project expert_day02 ****
+01:35:29 Build Finished. 0 errors, 0 warnings. (took 527ms)
 
-Nothing to build for project expert_day02

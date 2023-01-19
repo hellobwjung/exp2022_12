@@ -1,6 +1,116 @@
-00:10:27 **** Incremental Build of configuration Debug for project expert_day05 ****
+01:11:55 **** Incremental Build of configuration Debug for project expert_day05 ****
 make all 
-make: Nothing to be done for `all'.
+Building file: ../day05_ex_memo_main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"day05_ex_memo_main.d" -MT"day05_ex_memo_main.o" -o "day05_ex_memo_main.o" "../day05_ex_memo_main.cpp"
+Finished building: ../day05_ex_memo_main.cpp
+ 
+Building file: ../day05_ex_memo_user_stl_analysis02.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"day05_ex_memo_user_stl_analysis02.d" -MT"day05_ex_memo_user_stl_analysis02.o" -o "day05_ex_memo_user_stl_analysis02.o" "../day05_ex_memo_user_stl_analysis02.cpp"
+../day05_ex_memo_user_stl_analysis02.cpp:33:18: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+  while (*dest++ = *src++)
+         ~~~~~~~~^~~~~~~~
+../day05_ex_memo_user_stl_analysis02.cpp:33:18: note: place parentheses around the assignment to silence this warning
+  while (*dest++ = *src++)
+                 ^
+         (               )
+../day05_ex_memo_user_stl_analysis02.cpp:33:18: note: use '==' to turn this assignment into an equality comparison
+  while (*dest++ = *src++)
+                 ^
+                 ==
+../day05_ex_memo_user_stl_analysis02.cpp:74:30: warning: format specifies type 'int' but the argument has type 'std::vector<int>::size_type' (aka 'unsigned long') [-Wformat]
+    printf("%4d : %4d\n", i, memo[i].size());
+                  ~~~        ^~~~~~~~~~~~~~
+                  %4lu
+2 warnings generated.
+Finished building: ../day05_ex_memo_user_stl_analysis02.cpp
+ 
+Building file: ../day05_line_1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"day05_line_1.d" -MT"day05_line_1.o" -o "day05_line_1.o" "../day05_line_1.cpp"
+../day05_line_1.cpp:37:1: warning: non-void function does not return a value [-Wreturn-type]
+}
+^
+1 warning generated.
+Finished building: ../day05_line_1.cpp
+ 
+Building file: ../day05_line_ver1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"day05_line_ver1.d" -MT"day05_line_ver1.o" -o "day05_line_ver1.o" "../day05_line_ver1.cpp"
+Finished building: ../day05_line_ver1.cpp
+ 
+Building file: ../day05_line_ver2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"day05_line_ver2.d" -MT"day05_line_ver2.o" -o "day05_line_ver2.o" "../day05_line_ver2.cpp"
+Finished building: ../day05_line_ver2.cpp
+ 
+Building file: ../day05_line_ver3.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"day05_line_ver3.d" -MT"day05_line_ver3.o" -o "day05_line_ver3.o" "../day05_line_ver3.cpp"
+Finished building: ../day05_line_ver3.cpp
+ 
+Building target: expert_day05
+Invoking: MacOS X C++ Linker
+g++  -o "expert_day05"  ./day05_ex_memo_main.o ./day05_ex_memo_user_stl_analysis02.o ./day05_line_1.o ./day05_line_ver1.o ./day05_line_ver2.o ./day05_line_ver3.o   
+duplicate symbol '_main' in:
+    ./day05_ex_memo_main.o
+    ./day05_line_ver1.o
+duplicate symbol '_N' in:
+    ./day05_line_1.o
+    ./day05_line_ver1.o
+duplicate symbol '_H' in:
+    ./day05_line_1.o
+    ./day05_line_ver1.o
+duplicate symbol '_main' in:
+    ./day05_ex_memo_main.o
+    ./day05_line_1.o
+duplicate symbol '_ans' in:
+    ./day05_line_ver1.o
+    ./day05_line_ver2.o
+duplicate symbol '_qrr' in:
+    ./day05_line_ver1.o
+    ./day05_line_ver2.o
+duplicate symbol '_main' in:
+    ./day05_ex_memo_main.o
+    ./day05_line_ver2.o
+duplicate symbol 'mergeSort(int, int)' in:
+    ./day05_line_ver1.o
+    ./day05_line_ver2.o
+duplicate symbol '_T' in:
+    ./day05_line_ver1.o
+    ./day05_line_ver2.o
+duplicate symbol '_N' in:
+    ./day05_line_1.o
+    ./day05_line_ver2.o
+duplicate symbol '_H' in:
+    ./day05_line_1.o
+    ./day05_line_ver2.o
+duplicate symbol '_ans' in:
+    ./day05_line_ver1.o
+    ./day05_line_ver3.o
+duplicate symbol '_qrr' in:
+    ./day05_line_ver1.o
+    ./day05_line_ver3.o
+duplicate symbol '_main' in:
+    ./day05_ex_memo_main.o
+    ./day05_line_ver3.o
+duplicate symbol '_tree' in:
+    ./day05_line_ver2.o
+    ./day05_line_ver3.o
+duplicate symbol '_T' in:
+    ./day05_line_ver1.o
+    ./day05_line_ver3.o
+duplicate symbol '_N' in:
+    ./day05_line_1.o
+    ./day05_line_ver3.o
+duplicate symbol '_H' in:
+    ./day05_line_1.o
+    ./day05_line_ver3.o
+ld: 18 duplicate symbols for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [expert_day05] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
 
-00:10:27 Build Finished. 0 errors, 0 warnings. (took 320ms)
+01:11:56 Build Failed. 2 errors, 3 warnings. (took 1s.421ms)
 

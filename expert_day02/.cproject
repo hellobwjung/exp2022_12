@@ -14,7 +14,7 @@
 				</extensions>
 			</storageModule>
 			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.macosx.exe.debug.158249208" name="Debug" parent="cdt.managedbuild.config.gnu.macosx.exe.debug">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.macosx.exe.debug.158249208" name="Debug" optionalBuildProperties="" parent="cdt.managedbuild.config.gnu.macosx.exe.debug">
 					<folderInfo id="cdt.managedbuild.config.gnu.macosx.exe.debug.158249208." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.macosx.exe.debug.20581296" name="MacOSX GCC" superClass="cdt.managedbuild.toolchain.gnu.macosx.exe.debug">
 							<targetPlatform id="cdt.managedbuild.target.gnu.platform.macosx.exe.debug.1348171530" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.macosx.exe.debug"/>
@@ -43,7 +43,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="day03_Bit_ImageMap3_user.cpp|day03_Bit_ImageMap3_user_ver3.cpp|day03_Bit_ImageMap3_user_ver2.cpp|day03_Bit_ImageMap3_user_ver1.cpp|day02_Bit_ImageMap3_main.cpp|day02_보안시스템_user_1.cpp|day02_보안시스템_main.cpp|day02_보안시스템_user.cpp|day02_보안시스템_user_ver5.cpp|day02_보안시스템_user_ver4.cpp|day02_보안시스템_user_ver3.cpp|day02_보안시스템_user_ver2.cpp|day02_보안시스템_user_ver1.cpp|day02_진법변환1_3.cpp|day02_비트연산2_1.cpp|day02_비트연산2.cpp|day02_비밀편지_1.cpp|day02_비밀편지_kang.cpp|day02_비밀편지.cpp|day02_비트연산1.cpp|day02_진법변환1_2.cpp|day02_진법변환1_1.cpp|day02_진법변환1.cpp|day02_진법변환2.cpp|day02_진법변환.cpp|day02.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="day02_진법변환1_5.cpp|day02_진법변환1_4.cpp|day03_Bit_ImageMap3_user.cpp|day03_Bit_ImageMap3_user_ver3.cpp|day03_Bit_ImageMap3_user_ver2.cpp|day03_Bit_ImageMap3_user_ver1.cpp|day02_Bit_ImageMap3_main.cpp|day02_보안시스템_user_1.cpp|day02_보안시스템_main.cpp|day02_보안시스템_user.cpp|day02_보안시스템_user_ver5.cpp|day02_보안시스템_user_ver4.cpp|day02_보안시스템_user_ver3.cpp|day02_보안시스템_user_ver2.cpp|day02_보안시스템_user_ver1.cpp|day02_진법변환1_3.cpp|day02_비트연산2_1.cpp|day02_비트연산2.cpp|day02_비밀편지_1.cpp|day02_비밀편지_kang.cpp|day02_비밀편지.cpp|day02_비트연산1.cpp|day02_진법변환1_2.cpp|day02_진법변환1_1.cpp|day02_진법변환1.cpp|day02_진법변환2.cpp|day02_진법변환.cpp|day02.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -91,7 +91,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="day03_Bit_ImageMap3_user.cpp|day03_Bit_ImageMap3_user_ver3.cpp|day03_Bit_ImageMap3_user_ver2.cpp|day03_Bit_ImageMap3_user_ver1.cpp|day02_Bit_ImageMap3_main.cpp|day02_보안시스템_user_1.cpp|day02_보안시스템_main.cpp|day02_보안시스템_user.cpp|day02_보안시스템_user_ver5.cpp|day02_보안시스템_user_ver4.cpp|day02_보안시스템_user_ver3.cpp|day02_보안시스템_user_ver2.cpp|day02_보안시스템_user_ver1.cpp|day02_비밀편지_1.cpp|day02_비밀편지_kang.cpp|day02_비밀편지.cpp|day02_진법변환2.cpp|day02_진법변환.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="day02_진법변환1_5.cpp|day02_진법변환1_4.cpp|day03_Bit_ImageMap3_user.cpp|day03_Bit_ImageMap3_user_ver3.cpp|day03_Bit_ImageMap3_user_ver2.cpp|day03_Bit_ImageMap3_user_ver1.cpp|day02_Bit_ImageMap3_main.cpp|day02_보안시스템_user_1.cpp|day02_보안시스템_main.cpp|day02_보안시스템_user.cpp|day02_보안시스템_user_ver5.cpp|day02_보안시스템_user_ver4.cpp|day02_보안시스템_user_ver3.cpp|day02_보안시스템_user_ver2.cpp|day02_보안시스템_user_ver1.cpp|day02_비밀편지_1.cpp|day02_비밀편지_kang.cpp|day02_비밀편지.cpp|day02_진법변환2.cpp|day02_진법변환.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>

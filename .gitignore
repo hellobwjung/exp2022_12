@@ -34,3 +34,4 @@ Debug/*
 *.exe
 *.out
 *.app
+/.metadata/

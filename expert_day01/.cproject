@@ -14,7 +14,7 @@
 				</extensions>
 			</storageModule>
 			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.macosx.exe.debug.673117504" name="Debug" optionalBuildProperties="" parent="cdt.managedbuild.config.gnu.macosx.exe.debug">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.macosx.exe.debug.673117504" name="Debug" optionalBuildProperties="org.eclipse.cdt.docker.launcher.containerbuild.property.selectedvolumes=,org.eclipse.cdt.docker.launcher.containerbuild.property.volumes=" parent="cdt.managedbuild.config.gnu.macosx.exe.debug">
 					<folderInfo id="cdt.managedbuild.config.gnu.macosx.exe.debug.673117504." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.macosx.exe.debug.1662049624" name="MacOSX GCC" superClass="cdt.managedbuild.toolchain.gnu.macosx.exe.debug">
 							<targetPlatform id="cdt.managedbuild.target.gnu.platform.macosx.exe.debug.137367618" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.macosx.exe.debug"/>
@@ -33,6 +33,8 @@
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.macosx.exe.debug.180401384" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.macosx.exe.debug">
 								<option id="gnu.cpp.compilermacosx.exe.debug.option.optimization.level.1134435285" name="Optimization Level" superClass="gnu.cpp.compilermacosx.exe.debug.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
 								<option defaultValue="gnu.cpp.compiler.debugging.level.max" id="gnu.cpp.compiler.macosx.exe.debug.option.debugging.level.149703291" name="Debug Level" superClass="gnu.cpp.compiler.macosx.exe.debug.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.dialect.std.1224419323" name="Language standard" superClass="gnu.cpp.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.cpp.compiler.dialect.default" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.other.other.1877493502" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" useByScannerDiscovery="false" value="-c -fmessage-length=0 --std=c++14" valueType="string"/>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1028399224" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.c.compiler.macosx.exe.debug.691033427" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.macosx.exe.debug">
@@ -43,7 +45,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="day01_minecraft2_1.cpp|day01_square_user_ver4.cpp|day01_square_user_rev.cpp|day01_square_main.cpp|day01_square_user.cpp|day01_square_user_fail.cpp|day01_구간업데이트2D_눈내리는겨울밤2.cpp|day01_구간업데이트2D_눈내리는겨울밤2_1.cpp|day02_const구간의합구하기2D.cpp|day01_합이_0에_가장_가까운구간찾기2.cpp|day01_합이_0에_가장_가까운구간찾기1.cpp| day01_2608점모으기_countingSort.cpp| day01_2608점모으기_mergeSort.cpp|day01_minecraft1_1.cpp|day01_minecraft3.cpp|day01_minecraft2.cpp|day01_minecraft1.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="day01_구간업데이트2D_눈내리는겨울밤2_2.cpp|day01_const구간의합구하기2D_1.cpp|day01_합이_0에_가장_가까운구간찾기1_1.cpp|day01_const구간의합구하기2D.cpp|day01_2608점모으기_mergeSort_1.cpp|day01_minecraft1_2.cpp|day01_minecraft2_1.cpp|day01_square_user_ver4.cpp|day01_square_user_rev.cpp|day01_square_main.cpp|day01_square_user.cpp|day01_square_user_fail.cpp|day01_구간업데이트2D_눈내리는겨울밤2.cpp|day01_구간업데이트2D_눈내리는겨울밤2_1.cpp|day02_const구간의합구하기2D.cpp|day01_합이_0에_가장_가까운구간찾기2.cpp|day01_합이_0에_가장_가까운구간찾기1.cpp| day01_2608점모으기_countingSort.cpp| day01_2608점모으기_mergeSort.cpp|day01_minecraft1_1.cpp|day01_minecraft3.cpp|day01_minecraft2.cpp|day01_minecraft1.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -62,7 +64,7 @@
 				</extensions>
 			</storageModule>
 			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.macosx.exe.release.1252931336" name="Release" parent="cdt.managedbuild.config.macosx.exe.release">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.macosx.exe.release.1252931336" name="Release" optionalBuildProperties="" parent="cdt.managedbuild.config.macosx.exe.release">
 					<folderInfo id="cdt.managedbuild.config.macosx.exe.release.1252931336." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.macosx.exe.release.1089274847" name="MacOSX GCC" superClass="cdt.managedbuild.toolchain.gnu.macosx.exe.release">
 							<targetPlatform id="cdt.managedbuild.target.gnu.platform.macosx.exe.release.1359073572" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.macosx.exe.release"/>
@@ -91,7 +93,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="day01_minecraft2_1.cpp|day01_square_user_ver4.cpp|day01_square_user_rev.cpp|day01_square_main.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="day01_구간업데이트2D_눈내리는겨울밤2_2.cpp|day01_const구간의합구하기2D_1.cpp|day01_합이_0에_가장_가까운구간찾기1_1.cpp|day01_const구간의합구하기2D.cpp|day01_2608점모으기_mergeSort_1.cpp|day01_minecraft1_2.cpp|day01_minecraft2_1.cpp|day01_square_user_ver4.cpp|day01_square_user_rev.cpp|day01_square_main.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
