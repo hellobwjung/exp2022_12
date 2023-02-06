@@ -114,7 +114,7 @@ int encode(char *enc_str, char *str, int STRN) {
     }
   }
 
-  // 4. enc_str에 문장의 단어 번호 기록하기
+// 4. enc_str에 문장의 단어 번호 기록하기
   for (i = 0; i < swCnt; ++i) {
     write(enc_str, idx, sentenceWords[i]), idx += 10;
   }
@@ -124,27 +124,27 @@ int encode(char *enc_str, char *str, int STRN) {
 }
 
 void decode(char *dec_str, char *enc_str, int encn) {
-  // 1. dicWords 단어수 구하기, 문장의 단어수 구하기
+// 1. dicWords 단어수 구하기, 문장의 단어수 구하기
   rint idx = 0;
   int dcnt = read(enc_str, idx, 10);
   idx += 10;    // dicWords 단어수
   int swCnt = read(enc_str, idx, 14);
   idx += 14;   // 문장 단어수
 
-  // 2. dicWords 단어 복원하여 기록하기
+// 2. dicWords 단어 복원하여 기록하기
   char dicWords[1025][8] = { 0 };
   rint i, j, t = 0;
   for (i = 0; i < dcnt; ++i) {
     int len = read(enc_str, idx, 3);
     idx += 3;   // 길이 구하기
-    for (j = len - 1; j >= 0; --j) {             // 낮은 자리부터 저장하였으므로 역순으로 
+    for (j = len - 1; j >= 0; --j) {             // 낮은 자리부터 저장하였으므로 역순으로
       int k = read(enc_str, idx, 5);
       idx += 5; // 단어 복원하기
       dicWords[i][j] = k + 96;
     }
   }
 
-  // 3. dec_str에 문장 복원하기
+// 3. dec_str에 문장 복원하기
   for (i = 0; i < swCnt; ++i) {
     int k = read(enc_str, idx, 10);
     idx += 10;

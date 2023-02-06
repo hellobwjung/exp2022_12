@@ -7191,3 +7191,616 @@ Nothing to build for project exp_day10
 **** Build of configuration Debug for project exp_day02 ****
 
 Nothing to build for project exp_day02
+23:02:47 **** Incremental Build of configuration Debug for project exp_day01 ****
+make all 
+make: Nothing to be done for `all'.
+23:02:48 **** Clean-only build of configuration Debug for project exp_day02 ****
+make clean 
+rm -rf ./day02_Bit_ImageMap3_main.d ./day02_Bit_ImageMap3_main.o ./day02_Bit_ImageMap3_user_ver1.d ./day02_Bit_ImageMap3_user_ver1.o
+rm -rf exp_day02
+ 
+23:02:48 **** Incremental Build of configuration Debug for project exp_day02 ****
+make all 
+Building file: ../day02_Bit_ImageMap3_user_ver1_1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"day02_Bit_ImageMap3_user_ver1_1.d" -MT"day02_Bit_ImageMap3_user_ver1_1.o" -o "day02_Bit_ImageMap3_user_ver1_1.o" "../day02_Bit_ImageMap3_user_ver1_1.cpp"
+../day02_Bit_ImageMap3_user_ver1_1.cpp:9:12: warning: alias declarations are a C++11 extension [-Wc++11-extensions]
+using UI = unsigned int;
+           ^
+../day02_Bit_ImageMap3_user_ver1_1.cpp:23:3: warning: declaration does not declare anything [-Wmissing-declarations]
+  rint idx;
+  ^~~~
+../day02_Bit_ImageMap3_user_ver1_1.cpp:8:14: note: expanded from macro 'rint'
+#define rint register int;
+             ^~~~~~~~~~~~
+../day02_Bit_ImageMap3_user_ver1_1.cpp:23:8: error: use of undeclared identifier 'idx'
+  rint idx;
+       ^
+2 warnings and 1 error generated.
+make: *** [day02_Bit_ImageMap3_user_ver1_1.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+**** Build of configuration Debug for project exp_day03 ****
+
+Nothing to build for project exp_day03
+
+**** Build of configuration Debug for project exp_day04 ****
+
+Nothing to build for project exp_day04
+
+**** Build of configuration Debug for project exp_day05 ****
+
+Nothing to build for project exp_day05
+
+**** Build of configuration Debug for project exp_day06 ****
+
+Nothing to build for project exp_day06
+
+**** Build of configuration Debug for project exp_day07 ****
+
+Nothing to build for project exp_day07
+
+**** Build of configuration Debug for project exp_day08 ****
+
+Nothing to build for project exp_day08
+
+**** Build of configuration Debug for project exp_day09 ****
+
+Nothing to build for project exp_day09
+
+**** Build of configuration Debug for project exp_day10 ****
+
+Nothing to build for project exp_day10
+23:02:59 **** Incremental Build of configuration Debug for project exp_day01 ****
+make all 
+make: Nothing to be done for `all'.
+23:03:00 **** Incremental Build of configuration Debug for project exp_day02 ****
+make all 
+Building file: ../day02_Bit_ImageMap3_user_ver1_1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"day02_Bit_ImageMap3_user_ver1_1.d" -MT"day02_Bit_ImageMap3_user_ver1_1.o" -o "day02_Bit_ImageMap3_user_ver1_1.o" "../day02_Bit_ImageMap3_user_ver1_1.cpp"
+../day02_Bit_ImageMap3_user_ver1_1.cpp:9:12: warning: alias declarations are a C++11 extension [-Wc++11-extensions]
+using UI = unsigned int;
+           ^
+../day02_Bit_ImageMap3_user_ver1_1.cpp:23:8: warning: unused variable 'idx' [-Wunused-variable]
+  rint idx;
+       ^
+2 warnings generated.
+Finished building: ../day02_Bit_ImageMap3_user_ver1_1.cpp
+ 
+Building target: exp_day02
+Invoking: MacOS X C++ Linker
+g++  -o "exp_day02"  ./day02_Bit_ImageMap3_user_ver1_1.o   
+Undefined symbols for architecture arm64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [exp_day02] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+**** Build of configuration Debug for project exp_day03 ****
+
+Nothing to build for project exp_day03
+
+**** Build of configuration Debug for project exp_day04 ****
+
+Nothing to build for project exp_day04
+
+**** Build of configuration Debug for project exp_day05 ****
+
+Nothing to build for project exp_day05
+
+**** Build of configuration Debug for project exp_day06 ****
+
+Nothing to build for project exp_day06
+
+**** Build of configuration Debug for project exp_day07 ****
+
+Nothing to build for project exp_day07
+
+**** Build of configuration Debug for project exp_day08 ****
+
+Nothing to build for project exp_day08
+
+**** Build of configuration Debug for project exp_day09 ****
+
+Nothing to build for project exp_day09
+
+**** Build of configuration Debug for project exp_day10 ****
+
+Nothing to build for project exp_day10
+23:03:03 **** Incremental Build of configuration Debug for project exp_day02 ****
+make all 
+Building target: exp_day02
+Invoking: MacOS X C++ Linker
+g++  -o "exp_day02"  ./day02_Bit_ImageMap3_user_ver1_1.o   
+Undefined symbols for architecture arm64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [exp_day02] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:03:15 **** Incremental Build of configuration Debug for project exp_day01 ****
+make all 
+make: Nothing to be done for `all'.
+23:03:15 **** Incremental Build of configuration Debug for project exp_day02 ****
+make all 
+Building file: ../day02_Bit_ImageMap3_user_ver1_1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"day02_Bit_ImageMap3_user_ver1_1.d" -MT"day02_Bit_ImageMap3_user_ver1_1.o" -o "day02_Bit_ImageMap3_user_ver1_1.o" "../day02_Bit_ImageMap3_user_ver1_1.cpp"
+../day02_Bit_ImageMap3_user_ver1_1.cpp:9:12: warning: alias declarations are a C++11 extension [-Wc++11-extensions]
+using UI = unsigned int;
+           ^
+1 warning generated.
+Finished building: ../day02_Bit_ImageMap3_user_ver1_1.cpp
+ 
+Building target: exp_day02
+Invoking: MacOS X C++ Linker
+g++  -o "exp_day02"  ./day02_Bit_ImageMap3_user_ver1_1.o   
+Undefined symbols for architecture arm64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [exp_day02] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+**** Build of configuration Debug for project exp_day03 ****
+
+Nothing to build for project exp_day03
+
+**** Build of configuration Debug for project exp_day04 ****
+
+Nothing to build for project exp_day04
+
+**** Build of configuration Debug for project exp_day05 ****
+
+Nothing to build for project exp_day05
+
+**** Build of configuration Debug for project exp_day06 ****
+
+Nothing to build for project exp_day06
+
+**** Build of configuration Debug for project exp_day07 ****
+
+Nothing to build for project exp_day07
+
+**** Build of configuration Debug for project exp_day08 ****
+
+Nothing to build for project exp_day08
+
+**** Build of configuration Debug for project exp_day09 ****
+
+Nothing to build for project exp_day09
+
+**** Build of configuration Debug for project exp_day10 ****
+
+Nothing to build for project exp_day10
+23:03:27 **** Incremental Build of configuration Debug for project exp_day01 ****
+make all 
+make: Nothing to be done for `all'.
+23:03:27 **** Incremental Build of configuration Debug for project exp_day02 ****
+make all 
+Building target: exp_day02
+Invoking: MacOS X C++ Linker
+g++  -o "exp_day02"  ./day02_Bit_ImageMap3_user_ver1_1.o   
+Undefined symbols for architecture arm64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [exp_day02] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+**** Build of configuration Debug for project exp_day03 ****
+
+Nothing to build for project exp_day03
+
+**** Build of configuration Debug for project exp_day04 ****
+
+Nothing to build for project exp_day04
+
+**** Build of configuration Debug for project exp_day05 ****
+
+Nothing to build for project exp_day05
+
+**** Build of configuration Debug for project exp_day06 ****
+
+Nothing to build for project exp_day06
+
+**** Build of configuration Debug for project exp_day07 ****
+
+Nothing to build for project exp_day07
+
+**** Build of configuration Debug for project exp_day08 ****
+
+Nothing to build for project exp_day08
+
+**** Build of configuration Debug for project exp_day09 ****
+
+Nothing to build for project exp_day09
+
+**** Build of configuration Debug for project exp_day10 ****
+
+Nothing to build for project exp_day10
+23:03:29 **** Incremental Build of configuration Debug for project exp_day02 ****
+make all 
+Building target: exp_day02
+Invoking: MacOS X C++ Linker
+g++  -o "exp_day02"  ./day02_Bit_ImageMap3_user_ver1_1.o   
+Undefined symbols for architecture arm64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [exp_day02] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:03:51 **** Incremental Build of configuration Debug for project exp_day01 ****
+make all 
+make: Nothing to be done for `all'.
+23:03:52 **** Clean-only build of configuration Debug for project exp_day02 ****
+make clean 
+rm -rf ./day02_Bit_ImageMap3_user_ver1_1.d ./day02_Bit_ImageMap3_user_ver1_1.o
+rm -rf exp_day02
+ 
+23:03:52 **** Incremental Build of configuration Debug for project exp_day02 ****
+make all 
+Building file: ../day02_Bit_ImageMap3_main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"day02_Bit_ImageMap3_main.d" -MT"day02_Bit_ImageMap3_main.o" -o "day02_Bit_ImageMap3_main.o" "../day02_Bit_ImageMap3_main.cpp"
+../day02_Bit_ImageMap3_main.cpp:107:25: warning: format specifies type 'int' but the argument has type 'long long' [-Wformat]
+  printf("SCORE: %d\n", score);
+                 ~~     ^~~~~
+                 %lld
+1 warning generated.
+Finished building: ../day02_Bit_ImageMap3_main.cpp
+ 
+Building file: ../day02_Bit_ImageMap3_user_ver1_1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"day02_Bit_ImageMap3_user_ver1_1.d" -MT"day02_Bit_ImageMap3_user_ver1_1.o" -o "day02_Bit_ImageMap3_user_ver1_1.o" "../day02_Bit_ImageMap3_user_ver1_1.cpp"
+../day02_Bit_ImageMap3_user_ver1_1.cpp:9:12: warning: alias declarations are a C++11 extension [-Wc++11-extensions]
+using UI = unsigned int;
+           ^
+1 warning generated.
+Finished building: ../day02_Bit_ImageMap3_user_ver1_1.cpp
+ 
+Building target: exp_day02
+Invoking: MacOS X C++ Linker
+g++  -o "exp_day02"  ./day02_Bit_ImageMap3_main.o ./day02_Bit_ImageMap3_user_ver1_1.o   
+Finished building target: exp_day02
+ 
+
+**** Build of configuration Debug for project exp_day03 ****
+
+Nothing to build for project exp_day03
+
+**** Build of configuration Debug for project exp_day04 ****
+
+Nothing to build for project exp_day04
+
+**** Build of configuration Debug for project exp_day05 ****
+
+Nothing to build for project exp_day05
+
+**** Build of configuration Debug for project exp_day06 ****
+
+Nothing to build for project exp_day06
+
+**** Build of configuration Debug for project exp_day07 ****
+
+Nothing to build for project exp_day07
+
+**** Build of configuration Debug for project exp_day08 ****
+
+Nothing to build for project exp_day08
+
+**** Build of configuration Debug for project exp_day09 ****
+
+Nothing to build for project exp_day09
+
+**** Build of configuration Debug for project exp_day10 ****
+
+Nothing to build for project exp_day10
+23:03:55 **** Incremental Build of configuration Debug for project exp_day02 ****
+make all 
+make: Nothing to be done for `all'.
+23:04:08 **** Incremental Build of configuration Debug for project exp_day01 ****
+make all 
+make: Nothing to be done for `all'.
+23:04:08 **** Incremental Build of configuration Debug for project exp_day02 ****
+make all 
+Building file: ../day02_Bit_ImageMap3_user_ver1_1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"day02_Bit_ImageMap3_user_ver1_1.d" -MT"day02_Bit_ImageMap3_user_ver1_1.o" -o "day02_Bit_ImageMap3_user_ver1_1.o" "../day02_Bit_ImageMap3_user_ver1_1.cpp"
+../day02_Bit_ImageMap3_user_ver1_1.cpp:9:12: warning: alias declarations are a C++11 extension [-Wc++11-extensions]
+using UI = unsigned int;
+           ^
+../day02_Bit_ImageMap3_user_ver1_1.cpp:23:8: warning: unused variable 'idx' [-Wunused-variable]
+  rint idx;
+       ^
+2 warnings generated.
+Finished building: ../day02_Bit_ImageMap3_user_ver1_1.cpp
+ 
+Building target: exp_day02
+Invoking: MacOS X C++ Linker
+g++  -o "exp_day02"  ./day02_Bit_ImageMap3_main.o ./day02_Bit_ImageMap3_user_ver1_1.o   
+Finished building target: exp_day02
+ 
+
+**** Build of configuration Debug for project exp_day03 ****
+
+Nothing to build for project exp_day03
+
+**** Build of configuration Debug for project exp_day04 ****
+
+Nothing to build for project exp_day04
+
+**** Build of configuration Debug for project exp_day05 ****
+
+Nothing to build for project exp_day05
+
+**** Build of configuration Debug for project exp_day06 ****
+
+Nothing to build for project exp_day06
+
+**** Build of configuration Debug for project exp_day07 ****
+
+Nothing to build for project exp_day07
+
+**** Build of configuration Debug for project exp_day08 ****
+
+Nothing to build for project exp_day08
+
+**** Build of configuration Debug for project exp_day09 ****
+
+Nothing to build for project exp_day09
+
+**** Build of configuration Debug for project exp_day10 ****
+
+Nothing to build for project exp_day10
+23:04:10 **** Incremental Build of configuration Debug for project exp_day02 ****
+make all 
+make: Nothing to be done for `all'.
+23:08:00 **** Incremental Build of configuration Debug for project exp_day01 ****
+make all 
+make: Nothing to be done for `all'.
+23:08:01 **** Incremental Build of configuration Debug for project exp_day02 ****
+make all 
+Building file: ../day02_Bit_ImageMap3_user_ver1_1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"day02_Bit_ImageMap3_user_ver1_1.d" -MT"day02_Bit_ImageMap3_user_ver1_1.o" -o "day02_Bit_ImageMap3_user_ver1_1.o" "../day02_Bit_ImageMap3_user_ver1_1.cpp"
+../day02_Bit_ImageMap3_user_ver1_1.cpp:9:12: warning: alias declarations are a C++11 extension [-Wc++11-extensions]
+using UI = unsigned int;
+           ^
+../day02_Bit_ImageMap3_user_ver1_1.cpp:25:26: error: expected ';' at end of declaration
+  long long senStr[16384] { 0 };
+                         ^
+                         ;
+../day02_Bit_ImageMap3_user_ver1_1.cpp:27:19: error: expected ';' at end of declaration
+  int dicLen[1025] { 0 };
+                  ^
+                  ;
+../day02_Bit_ImageMap3_user_ver1_1.cpp:28:23: error: expected ';' at end of declaration
+  char dicStr[1025][8] { 0 };
+                      ^
+                      ;
+../day02_Bit_ImageMap3_user_ver1_1.cpp:30:8: error: expected expression
+  for () {
+       ^
+../day02_Bit_ImageMap3_user_ver1_1.cpp:30:8: error: expected ';' in 'for' statement specifier
+1 warning and 5 errors generated.
+make: *** [day02_Bit_ImageMap3_user_ver1_1.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+**** Build of configuration Debug for project exp_day03 ****
+
+Nothing to build for project exp_day03
+
+**** Build of configuration Debug for project exp_day04 ****
+
+Nothing to build for project exp_day04
+
+**** Build of configuration Debug for project exp_day05 ****
+
+Nothing to build for project exp_day05
+
+**** Build of configuration Debug for project exp_day06 ****
+
+Nothing to build for project exp_day06
+
+**** Build of configuration Debug for project exp_day07 ****
+
+Nothing to build for project exp_day07
+
+**** Build of configuration Debug for project exp_day08 ****
+
+Nothing to build for project exp_day08
+
+**** Build of configuration Debug for project exp_day09 ****
+
+Nothing to build for project exp_day09
+
+**** Build of configuration Debug for project exp_day10 ****
+
+Nothing to build for project exp_day10
+23:08:21 **** Incremental Build of configuration Debug for project exp_day01 ****
+make all 
+make: Nothing to be done for `all'.
+23:08:22 **** Incremental Build of configuration Debug for project exp_day02 ****
+make all 
+Building file: ../day02_Bit_ImageMap3_user_ver1_1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"day02_Bit_ImageMap3_user_ver1_1.d" -MT"day02_Bit_ImageMap3_user_ver1_1.o" -o "day02_Bit_ImageMap3_user_ver1_1.o" "../day02_Bit_ImageMap3_user_ver1_1.cpp"
+../day02_Bit_ImageMap3_user_ver1_1.cpp:9:12: warning: alias declarations are a C++11 extension [-Wc++11-extensions]
+using UI = unsigned int;
+           ^
+../day02_Bit_ImageMap3_user_ver1_1.cpp:27:19: error: expected ';' at end of declaration
+  int dicLen[1025] { 0 };
+                  ^
+                  ;
+../day02_Bit_ImageMap3_user_ver1_1.cpp:28:23: error: expected ';' at end of declaration
+  char dicStr[1025][8] { 0 };
+                      ^
+                      ;
+../day02_Bit_ImageMap3_user_ver1_1.cpp:30:8: error: expected expression
+  for () {
+       ^
+../day02_Bit_ImageMap3_user_ver1_1.cpp:30:8: error: expected ';' in 'for' statement specifier
+1 warning and 4 errors generated.
+make: *** [day02_Bit_ImageMap3_user_ver1_1.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+**** Build of configuration Debug for project exp_day03 ****
+
+Nothing to build for project exp_day03
+
+**** Build of configuration Debug for project exp_day04 ****
+
+Nothing to build for project exp_day04
+
+**** Build of configuration Debug for project exp_day05 ****
+
+Nothing to build for project exp_day05
+
+**** Build of configuration Debug for project exp_day06 ****
+
+Nothing to build for project exp_day06
+
+**** Build of configuration Debug for project exp_day07 ****
+
+Nothing to build for project exp_day07
+
+**** Build of configuration Debug for project exp_day08 ****
+
+Nothing to build for project exp_day08
+
+**** Build of configuration Debug for project exp_day09 ****
+
+Nothing to build for project exp_day09
+
+**** Build of configuration Debug for project exp_day10 ****
+
+Nothing to build for project exp_day10
+23:08:29 **** Incremental Build of configuration Debug for project exp_day01 ****
+make all 
+make: Nothing to be done for `all'.
+23:08:29 **** Incremental Build of configuration Debug for project exp_day02 ****
+make all 
+Building file: ../day02_Bit_ImageMap3_user_ver1_1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"day02_Bit_ImageMap3_user_ver1_1.d" -MT"day02_Bit_ImageMap3_user_ver1_1.o" -o "day02_Bit_ImageMap3_user_ver1_1.o" "../day02_Bit_ImageMap3_user_ver1_1.cpp"
+../day02_Bit_ImageMap3_user_ver1_1.cpp:9:12: warning: alias declarations are a C++11 extension [-Wc++11-extensions]
+using UI = unsigned int;
+           ^
+../day02_Bit_ImageMap3_user_ver1_1.cpp:28:23: error: expected ';' at end of declaration
+  char dicStr[1025][8] { 0 };
+                      ^
+                      ;
+../day02_Bit_ImageMap3_user_ver1_1.cpp:30:8: error: expected expression
+  for () {
+       ^
+../day02_Bit_ImageMap3_user_ver1_1.cpp:30:8: error: expected ';' in 'for' statement specifier
+1 warning and 3 errors generated.
+make: *** [day02_Bit_ImageMap3_user_ver1_1.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+**** Build of configuration Debug for project exp_day03 ****
+
+Nothing to build for project exp_day03
+
+**** Build of configuration Debug for project exp_day04 ****
+
+Nothing to build for project exp_day04
+
+**** Build of configuration Debug for project exp_day05 ****
+
+Nothing to build for project exp_day05
+
+**** Build of configuration Debug for project exp_day06 ****
+
+Nothing to build for project exp_day06
+
+**** Build of configuration Debug for project exp_day07 ****
+
+Nothing to build for project exp_day07
+
+**** Build of configuration Debug for project exp_day08 ****
+
+Nothing to build for project exp_day08
+
+**** Build of configuration Debug for project exp_day09 ****
+
+Nothing to build for project exp_day09
+
+**** Build of configuration Debug for project exp_day10 ****
+
+Nothing to build for project exp_day10
+23:09:07 **** Incremental Build of configuration Debug for project exp_day01 ****
+make all 
+make: Nothing to be done for `all'.
+23:09:07 **** Incremental Build of configuration Debug for project exp_day02 ****
+make all 
+Building file: ../day02_Bit_ImageMap3_main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall --std=c++14 -c -fmessage-length=0 -MMD -MP -MF"day02_Bit_ImageMap3_main.d" -MT"day02_Bit_ImageMap3_main.o" -o "day02_Bit_ImageMap3_main.o" "../day02_Bit_ImageMap3_main.cpp"
+../day02_Bit_ImageMap3_main.cpp:107:25: warning: format specifies type 'int' but the argument has type 'long long' [-Wformat]
+  printf("SCORE: %d\n", score);
+                 ~~     ^~~~~
+                 %lld
+1 warning generated.
+Finished building: ../day02_Bit_ImageMap3_main.cpp
+ 
+Building file: ../day02_Bit_ImageMap3_user_ver1_1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall --std=c++14 -c -fmessage-length=0 -MMD -MP -MF"day02_Bit_ImageMap3_user_ver1_1.d" -MT"day02_Bit_ImageMap3_user_ver1_1.o" -o "day02_Bit_ImageMap3_user_ver1_1.o" "../day02_Bit_ImageMap3_user_ver1_1.cpp"
+../day02_Bit_ImageMap3_user_ver1_1.cpp:23:3: warning: 'register' storage class specifier is deprecated and incompatible with C++17 [-Wdeprecated-register]
+  rint idx;
+  ^
+../day02_Bit_ImageMap3_user_ver1_1.cpp:8:14: note: expanded from macro 'rint'
+#define rint register int
+             ^
+../day02_Bit_ImageMap3_user_ver1_1.cpp:28:26: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+  char dicStr[1025][8] { 0 };
+                         ^
+                         {}
+../day02_Bit_ImageMap3_user_ver1_1.cpp:30:8: error: expected expression
+  for () {
+       ^
+../day02_Bit_ImageMap3_user_ver1_1.cpp:30:8: error: expected ';' in 'for' statement specifier
+2 warnings and 2 errors generated.
+make: *** [day02_Bit_ImageMap3_user_ver1_1.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+**** Build of configuration Debug for project exp_day03 ****
+
+Nothing to build for project exp_day03
+
+**** Build of configuration Debug for project exp_day04 ****
+
+Nothing to build for project exp_day04
+
+**** Build of configuration Debug for project exp_day05 ****
+
+Nothing to build for project exp_day05
+
+**** Build of configuration Debug for project exp_day06 ****
+
+Nothing to build for project exp_day06
+
+**** Build of configuration Debug for project exp_day07 ****
+
+Nothing to build for project exp_day07
+
+**** Build of configuration Debug for project exp_day08 ****
+
+Nothing to build for project exp_day08
+
+**** Build of configuration Debug for project exp_day09 ****
+
+Nothing to build for project exp_day09
+
+**** Build of configuration Debug for project exp_day10 ****
+
+Nothing to build for project exp_day10
