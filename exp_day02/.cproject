@@ -43,7 +43,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="day02.cpp|day02_진법변환2.cpp|day02_진법변환1.cpp|day02_진법변환1_5.cpp|day02_진법변환1_4.cpp|day02_진법변환1_3.cpp|day02_진법변환1_2.cpp|day02_진법변환1_1.cpp|day02_비트연산2.cpp|day02_비트연산2_1.cpp|day02_비트연산1.cpp|day02_비밀편지.cpp|day02_비밀편지_kang.cpp|day02_비밀편지_2.cpp|day02_비밀편지_1.cpp|day02_보안시스템_user.cpp|day02_보안시스템_user_ver5.cpp|day02_보안시스템_user_ver4.cpp|day02_보안시스템_user_ver3.cpp|day02_보안시스템_user_ver2.cpp|day02_보안시스템_user_ver1.cpp|day02_보안시스템_user_1.cpp|day02_보안시스템_main.cpp|day02_Bit_ImageMap3_user.cpp|day02_Bit_ImageMap3_user_ver3.cpp|day02_Bit_ImageMap3_user_ver2.cpp|day02_Bit_ImageMap3_user_ver1.cpp|day02_Bit_ImageMap3_main.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="day02.cpp|day02_진법변환2.cpp|day02_진법변환1.cpp|day02_진법변환1_5.cpp|day02_진법변환1_4.cpp|day02_진법변환1_3.cpp|day02_진법변환1_2.cpp|day02_진법변환1_1.cpp|day02_비트연산2.cpp|day02_비트연산2_1.cpp|day02_비트연산1.cpp|day02_비밀편지.cpp|day02_비밀편지_kang.cpp|day02_비밀편지_2.cpp|day02_비밀편지_1.cpp|day02_보안시스템_user.cpp|day02_보안시스템_user_ver5.cpp|day02_보안시스템_user_ver4.cpp|day02_보안시스템_user_ver3.cpp|day02_보안시스템_user_ver2.cpp|day02_보안시스템_user_ver1.cpp|day02_보안시스템_user_1.cpp|day02_보안시스템_main.cpp|day02_Bit_ImageMap3_user.cpp|day02_Bit_ImageMap3_user_ver3.cpp|day02_Bit_ImageMap3_user_ver2.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -91,7 +91,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="day02.cpp|day02_진법변환2.cpp|day02_진법변환1.cpp|day02_진법변환1_5.cpp|day02_진법변환1_4.cpp|day02_진법변환1_3.cpp|day02_진법변환1_2.cpp|day02_진법변환1_1.cpp|day02_비트연산2.cpp|day02_비트연산2_1.cpp|day02_비트연산1.cpp|day02_비밀편지.cpp|day02_비밀편지_kang.cpp|day02_비밀편지_2.cpp|day02_비밀편지_1.cpp|day02_보안시스템_user.cpp|day02_보안시스템_user_ver5.cpp|day02_보안시스템_user_ver4.cpp|day02_보안시스템_user_ver3.cpp|day02_보안시스템_user_ver2.cpp|day02_보안시스템_user_ver1.cpp|day02_보안시스템_user_1.cpp|day02_보안시스템_main.cpp|day02_Bit_ImageMap3_user.cpp|day02_Bit_ImageMap3_user_ver3.cpp|day02_Bit_ImageMap3_user_ver2.cpp|day02_Bit_ImageMap3_user_ver1.cpp|day02_Bit_ImageMap3_main.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="day02.cpp|day02_진법변환2.cpp|day02_진법변환1.cpp|day02_진법변환1_5.cpp|day02_진법변환1_4.cpp|day02_진법변환1_3.cpp|day02_진법변환1_2.cpp|day02_진법변환1_1.cpp|day02_비트연산2.cpp|day02_비트연산2_1.cpp|day02_비트연산1.cpp|day02_비밀편지.cpp|day02_비밀편지_kang.cpp|day02_비밀편지_2.cpp|day02_비밀편지_1.cpp|day02_보안시스템_user.cpp|day02_보안시스템_user_ver5.cpp|day02_보안시스템_user_ver4.cpp|day02_보안시스템_user_ver3.cpp|day02_보안시스템_user_ver2.cpp|day02_보안시스템_user_ver1.cpp|day02_보안시스템_user_1.cpp|day02_보안시스템_main.cpp|day02_Bit_ImageMap3_user.cpp|day02_Bit_ImageMap3_user_ver3.cpp|day02_Bit_ImageMap3_user_ver2.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
