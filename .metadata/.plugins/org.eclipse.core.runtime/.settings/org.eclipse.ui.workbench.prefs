@@ -1,13 +1,14 @@
 //org.eclipse.ui.commands/state/org.eclipse.ui.navigator.resources.nested.changeProjectPresentation/org.eclipse.ui.commands.radioState=false
+//org.eclipse.ui.commands/state/org.eclipse.wst.xml.views.XPathView.processor.xpathprocessor/org.eclipse.ui.commands.radioState=xpath10
 ColorsAndFontsPreferencePage.expandedCategories=Torg.eclipse.cdt.ui.presentation\tTorg.eclipse.cdt.ui.CEditor.presentation
 ColorsAndFontsPreferencePage.selectedElement=Forg.eclipse.cdt.ui.editors.textfont
 PLUGINS_NOT_ACTIVATED_ON_STARTUP=;org.eclipse.m2e.discovery;
 UIActivities.org.eclipse.cdt.debug.dsfgdbActivity=true
 eclipse.preferences.version=1
-org.eclipse.cdt.internal.ui.compare.AsmMergeViewer=1|Consolas|16.0|0|COCOA|1|Consolas;
-org.eclipse.cdt.internal.ui.compare.CMergeViewer=1|Consolas|16.0|0|COCOA|1|Consolas;
+org.eclipse.cdt.internal.ui.compare.AsmMergeViewer=1|Courier New|16.0|1|COCOA|1|CourierNewPS-BoldMT;
+org.eclipse.cdt.internal.ui.compare.CMergeViewer=1|Courier New|16.0|1|COCOA|1|CourierNewPS-BoldMT;
 org.eclipse.cdt.ui.ColoredLabels.match_highlight=206,92,0
-org.eclipse.cdt.ui.editors.textfont=1|Consolas|16.0|0|COCOA|1|Consolas;
+org.eclipse.cdt.ui.editors.textfont=1|Courier New|16.0|1|COCOA|1|CourierNewPS-BoldMT;
 org.eclipse.ui.commands=<?xml version\="1.0" encoding\="UTF-8"?>\n<org.eclipse.ui.commands>\n<keyBinding contextId\="org.eclipse.ui.textEditorScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="ALT+ARROW_DOWN"/>\n<keyBinding commandId\="org.eclipse.ui.edit.text.moveLineDown" contextId\="org.eclipse.ui.textEditorScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="ALT+ARROW_DOWN COMMAND+ARROW_DOWN"/>\n<keyBinding contextId\="org.eclipse.ui.textEditorScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="ALT+ARROW_UP"/>\n<keyBinding commandId\="org.eclipse.ui.edit.text.moveLineUp" contextId\="org.eclipse.ui.textEditorScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="ALT+ARROW_UP COMMAND+ARROW_UP"/>\n</org.eclipse.ui.commands>
 org.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_BG_END=41,41,41
 org.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_BG_START=43,44,45

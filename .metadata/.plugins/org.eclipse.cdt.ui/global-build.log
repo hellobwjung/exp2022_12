@@ -7098,3 +7098,54 @@ Invoking: MacOS X C++ Linker
 g++  -o "expert_day02"  ./day02_비밀편지_2.o   
 Finished building target: expert_day02
  
+21:31:20 **** Build of configuration Debug for project exp_day01 ****
+make all 
+Building file: ../day01_test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"day01_test.d" -MT"day01_test.o" -o "day01_test.o" "../day01_test.cpp"
+Finished building: ../day01_test.cpp
+ 
+Building target: exp_day01
+Invoking: MacOS X C++ Linker
+g++  -o "exp_day01"  ./day01_test.o   
+Finished building target: exp_day01
+ 
+
+**** Build of configuration Debug for project exp_day02 ****
+
+Nothing to build for project exp_day02
+
+**** Build of configuration Debug for project exp_day03 ****
+
+Nothing to build for project exp_day03
+
+**** Build of configuration Debug for project exp_day04 ****
+
+Nothing to build for project exp_day04
+
+**** Build of configuration Debug for project exp_day05 ****
+
+Nothing to build for project exp_day05
+
+**** Build of configuration Debug for project exp_day06 ****
+
+Nothing to build for project exp_day06
+
+**** Build of configuration Debug for project exp_day07 ****
+
+Nothing to build for project exp_day07
+
+**** Build of configuration Debug for project exp_day08 ****
+
+Nothing to build for project exp_day08
+
+**** Build of configuration Debug for project exp_day09 ****
+
+Nothing to build for project exp_day09
+
+**** Build of configuration Debug for project exp_day10 ****
+
+Nothing to build for project exp_day10
+21:31:22 **** Incremental Build of configuration Debug for project exp_day01 ****
+make all 
+make: Nothing to be done for `all'.
