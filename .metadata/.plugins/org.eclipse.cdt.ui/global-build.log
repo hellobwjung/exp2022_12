@@ -7149,88 +7149,10 @@ Nothing to build for project exp_day10
 21:31:22 **** Incremental Build of configuration Debug for project exp_day01 ****
 make all 
 make: Nothing to be done for `all'.
-21:57:15 **** Build of configuration Debug for project exp_day01 ****
-make all 
-Building file: ../day01_test.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"day01_test.d" -MT"day01_test.o" -o "day01_test.o" "../day01_test.cpp"
-../day01_test.cpp:14:7: warning: unused variable 'a' [-Wunused-variable]
-  int a;
-      ^
-1 warning generated.
-Finished building: ../day01_test.cpp
- 
-Building target: exp_day01
-Invoking: MacOS X C++ Linker
-g++  -o "exp_day01"  ./day01_test.o   
-Finished building target: exp_day01
- 
-21:57:16 **** Build of configuration Debug for project exp_day02 ****
-make all 
-Building file: ../day02_Bit_ImageMap3_main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"day02_Bit_ImageMap3_main.d" -MT"day02_Bit_ImageMap3_main.o" -o "day02_Bit_ImageMap3_main.o" "../day02_Bit_ImageMap3_main.cpp"
-../day02_Bit_ImageMap3_main.cpp:107:25: warning: format specifies type 'int' but the argument has type 'long long' [-Wformat]
-  printf("SCORE: %d\n", score);
-                 ~~     ^~~~~
-                 %lld
-1 warning generated.
-Finished building: ../day02_Bit_ImageMap3_main.cpp
- 
-Building file: ../day02_Bit_ImageMap3_user_ver1.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"day02_Bit_ImageMap3_user_ver1.d" -MT"day02_Bit_ImageMap3_user_ver1.o" -o "day02_Bit_ImageMap3_user_ver1.o" "../day02_Bit_ImageMap3_user_ver1.cpp"
-../day02_Bit_ImageMap3_user_ver1.cpp:55:12: warning: alias declarations are a C++11 extension [-Wc++11-extensions]
-using UI = unsigned int;
-           ^
-../day02_Bit_ImageMap3_user_ver1.cpp:135:30: warning: suggest braces around initialization of subobject [-Wmissing-braces]
-  char dicWords[1025][8] = { 0 };
-                             ^
-                             {}
-2 warnings generated.
-Finished building: ../day02_Bit_ImageMap3_user_ver1.cpp
- 
-Building target: exp_day02
-Invoking: MacOS X C++ Linker
-g++  -o "exp_day02"  ./day02_Bit_ImageMap3_main.o ./day02_Bit_ImageMap3_user_ver1.o   
-Finished building target: exp_day02
- 
-
-**** Build of configuration Debug for project exp_day03 ****
-
-Nothing to build for project exp_day03
-
-**** Build of configuration Debug for project exp_day04 ****
-
-Nothing to build for project exp_day04
-
-**** Build of configuration Debug for project exp_day05 ****
-
-Nothing to build for project exp_day05
-
-**** Build of configuration Debug for project exp_day06 ****
-
-Nothing to build for project exp_day06
-
-**** Build of configuration Debug for project exp_day07 ****
-
-Nothing to build for project exp_day07
-
-**** Build of configuration Debug for project exp_day08 ****
-
-Nothing to build for project exp_day08
-
-**** Build of configuration Debug for project exp_day09 ****
-
-Nothing to build for project exp_day09
-
-**** Build of configuration Debug for project exp_day10 ****
-
-Nothing to build for project exp_day10
-21:57:27 **** Incremental Build of configuration Debug for project exp_day01 ****
+22:09:31 **** Incremental Build of configuration Debug for project exp_day01 ****
 make all 
 make: Nothing to be done for `all'.
-21:57:28 **** Incremental Build of configuration Debug for project exp_day02 ****
+22:09:31 **** Incremental Build of configuration Debug for project exp_day02 ****
 make all 
 make: Nothing to be done for `all'.
 
@@ -7265,6 +7187,7 @@ Nothing to build for project exp_day09
 **** Build of configuration Debug for project exp_day10 ****
 
 Nothing to build for project exp_day10
-21:57:30 **** Incremental Build of configuration Debug for project exp_day02 ****
-make all 
-make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project exp_day02 ****
+
+Nothing to build for project exp_day02
