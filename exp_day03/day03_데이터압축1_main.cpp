@@ -1,10 +1,3 @@
-/*
- * day03_데이터압축1.cpp
- *
- *  Created on: 2022. 12. 7.
- *      Author: bw
- */
-
 /// ***** main *****
 #ifndef _CRT_SECURE_NO_WARNINGS
 #define _CRT_SECURE_NO_WARNINGS
@@ -144,10 +137,16 @@ int main(void) {
 
     SCORE += (clock() - begin) / (CLOCKS_PER_SEC / 1000);
 
-    if (memcmp(freq1, freq2, 1000000) == 0)
+    if (memcmp(freq1, freq2, 1000000) == 0) {
       SCORE -= 20000000;
-    if (memcmp(freq1, freq3, 1000000) == 0)
+    } else {
+      printf("fail1\n");
+    }
+    if (memcmp(freq1, freq3, 1000000) == 0) {
       SCORE -= 10000000;
+    } else {
+      printf("fail2\n");
+    }
   }
 
   int cut;
@@ -164,4 +163,3 @@ int main(void) {
 
   return 0;
 }
-

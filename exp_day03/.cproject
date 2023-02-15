@@ -30,10 +30,12 @@
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1584620847" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.macosx.base.1046791695" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.macosx.base"/>
-							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.macosx.exe.debug.549639057" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.macosx.exe.debug">
-								<option id="gnu.cpp.compilermacosx.exe.debug.option.optimization.level.932886790" name="Optimization Level" superClass="gnu.cpp.compilermacosx.exe.debug.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+							<tool command="clang" id="cdt.managedbuild.tool.gnu.cpp.compiler.macosx.exe.debug.549639057" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.macosx.exe.debug">
+								<option id="gnu.cpp.compilermacosx.exe.debug.option.optimization.level.932886790" name="Optimization Level" superClass="gnu.cpp.compilermacosx.exe.debug.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
 								<option defaultValue="gnu.cpp.compiler.debugging.level.max" id="gnu.cpp.compiler.macosx.exe.debug.option.debugging.level.294557563" name="Debug Level" superClass="gnu.cpp.compiler.macosx.exe.debug.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
-								<option id="gnu.cpp.compiler.option.other.other.1031220393" superClass="gnu.cpp.compiler.option.other.other" value="--std=c++14 -c -fmessage-length=0" valueType="string"/>
+								<option id="gnu.cpp.compiler.option.other.other.1031220393" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" useByScannerDiscovery="false" value="--std=c++14  -c -fmessage-length=0" valueType="string"/>
+								<option id="gnu.cpp.compiler.option.dialect.std.745268860" name="Language standard" superClass="gnu.cpp.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.cpp.compiler.dialect.default" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.warnings.allwarn.2146577584" name="All warnings (-Wall)" superClass="gnu.cpp.compiler.option.warnings.allwarn" useByScannerDiscovery="false" value="false" valueType="boolean"/>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.946727306" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.c.compiler.macosx.exe.debug.103321407" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.macosx.exe.debug">
@@ -44,7 +46,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="day03_데이터압축2_user.cpp|day03_데이터압축2_user_ver2.cpp|day03_데이터압축2_user_ver1.cpp|day03_데이터압축2_main.cpp|day03_데이터압축1_user.cpp|day03_데이터압축1_user_ver2.cpp|day03_데이터압축1_user_ver1_fail.cpp|day03_데이터압축1_main.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="day03_데이터압축1_user.cpp|day03_데이터압축1_user_ver2_4.cpp|day03_데이터압축1_main.cpp|day03_데이터압축1_user_ver2_3.cpp|day03_데이터압축1_user_ver2_2.cpp|day03_데이터압축1_user_ver2_1.cpp|day03_데이터압축1_user_ver1_2.cpp|day03_데이터압축1_user_ver1_1.cpp|day03_데이터압축1_user_ver1_fail.cpp|day03_데이터압축2_user_ver2.cpp|day03_데이터압축2_user_ver1.cpp|day03_데이터압축1_user_ver2.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -92,7 +94,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="day03_데이터압축2_user.cpp|day03_데이터압축2_user_ver2.cpp|day03_데이터압축2_user_ver1.cpp|day03_데이터압축2_main.cpp|day03_데이터압축1_user.cpp|day03_데이터압축1_user_ver2.cpp|day03_데이터압축1_user_ver1_fail.cpp|day03_데이터압축1_main.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="day03_데이터압축1_user.cpp|day03_데이터압축1_user_ver2_4.cpp|day03_데이터압축1_main.cpp|day03_데이터압축1_user_ver2_3.cpp|day03_데이터압축1_user_ver2_2.cpp|day03_데이터압축1_user_ver2_1.cpp|day03_데이터압축1_user_ver1_2.cpp|day03_데이터압축1_user_ver1_1.cpp|day03_데이터압축1_user_ver1_fail.cpp|day03_데이터압축2_user_ver2.cpp|day03_데이터압축2_user_ver1.cpp|day03_데이터압축1_user_ver2.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -119,5 +121,12 @@
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
 	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
-	<storageModule moduleId="refreshScope"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/exp_day03"/>
+		</configuration>
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/exp_day03"/>
+		</configuration>
+	</storageModule>
 </cproject>
